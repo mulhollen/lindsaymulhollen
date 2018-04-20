@@ -3,13 +3,12 @@
 
 .mainH1 {
   font-family: 'Space Mono', monospace;
-  font-size: 5rem;
-  position: absolute;
+  /* position: absolute; */
   font-weight: bold;
   color: #000;
-  top: 35%;
-  left: 7%;
-  z-index: 20;
+  /* top: 35%; */
+  /* left: 7%; */
+  /* z-index: 20; */
 }
 
 .sans {
@@ -71,6 +70,7 @@ p {
 
 .animated-words span {
     position: absolute;
+    margin-left: 6rem;
     opacity: 0;
     overflow: hidden;
     color: #6b969d;
@@ -93,16 +93,6 @@ p {
     width: 85%;
     margin-left:auto;
     margin-right:auto;
-}
-
-/* lg portfolio links */
-.port50 {
-  width: 50vw;
-  height: 50vw;
-}
-
-.port100 {
-  width: 100vw;
 }
 
 /* hover styling */
@@ -158,7 +148,7 @@ p {
   text-transform: uppercase;
   text-align: left;
   position: relative;
-  font-size: 4rem;
+  font-size: 2.3rem;
   background-color: transparent;
   color: #FFF;
   padding: 1em 0;
