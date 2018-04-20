@@ -23,7 +23,7 @@ function Nav() {
                     <div className="d-flex align-items-center">
                     <Link className="ml-5" to='/About'>ABOUT</Link>
                     <Link className="mx-5" to='/Portfolio'>PORTFOLIO</Link>
-                    <Link className="mr-5" to='/Guides'>RESUME</Link>
+                    <Link className="mr-5" to='/Resume'>RESUME</Link>
                     </div>
                 </nav>
                 <div>
