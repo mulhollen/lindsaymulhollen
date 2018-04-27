@@ -1,14 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700,700i|Work+Sans');
 
+h1 {
+  font-family: 'Space Mono', monospace;
+}
 
+h3 {
+  font-family: 'Space Mono', monospace;
+}
 .mainH1 {
   font-family: 'Space Mono', monospace;
   /* position: absolute; */
-  font-weight: bold;
   color: #000;
   /* top: 35%; */
   /* left: 7%; */
   /* z-index: 20; */
+}
+
+.portH1 {
+  font-family: 'Space Mono', monospace;
+  background-color: yellow;
 }
 
 .sans {
@@ -33,6 +43,10 @@ a:visited,
 .nav-link:visited {
 font-family: 'Space Mono', monospace;
 color: #000;
+}
+
+.portLink {
+  text-decoration: none !important;
 }
 
 .nav-link:active {
@@ -210,11 +224,29 @@ p {
 .logo {
   height: 4rem;
   background: url('img/lmlogostill.png');
-  
 }
 
   /*this is the hover event trigger*/
   .logo:hover {
     cursor:pointer; 
     background:url('img/lmlogo.gif');
+  }
+
+  /* project page */
+  .port-h1 {
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    margin-top: -10%;
+    margin-bottom: 5%;
+    border: 5px black solid;
+  }
+
+  .yellow {
+    background-color: yellow;
+  }
+
+  .portPic{
+    object-fit: contain;
+    height: 40vw;
   }
