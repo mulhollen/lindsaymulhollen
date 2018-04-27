@@ -3,40 +3,69 @@ import {
     BrowserRouter as Router,
     Route,
     Link,
+    NavLink,
 } from 'react-router-dom';
 import Home from './Home.js';
 import About from './About.js';
 import Portfolio from './Portfolio.js';
 import Resume from './Resume.js';
 import squiggle from './img/squiggleline.png';
+import logo from './img/lmlogostill.png';
+import gif from './img/lmlogo.gif';
+import ArtInverstigator from './ArtInverstigator';
 
+class Nav extends Component {
+    
+    constructor(props) {
+        super(props);
+        this.state = {
+            imgSrc: gif
+        };
+        this.playGif = this.playGif.bind(this);
+        this.stopGif = this.stopGif.bind(this);
+    }
 
-function Nav() {
-    return (
-        <Router>
-            <div>
-                <nav className="boxshadow d-flex flex-row justify-content-between px-5 py-4">
-                    <div className="align-items-center">
-                        <img className="logo" src={squiggle} alt="logo" />
-                        <Link to='/'>LM</Link>
-                    </div>
-                    <div className="d-flex align-items-center">
-                    <Link className="ml-5" to='/About'>ABOUT</Link>
-                    <Link className="mx-5" to='/Portfolio'>PORTFOLIO</Link>
-                    <Link className="mr-5" to='/Resume'>RESUME</Link>
-                    </div>
-                </nav>
+    playGif() {
+        this.setState({
+            imgSrc: gif
+        });
+    }
+
+    stopGif(){
+        this.setState({
+            imgSrc: logo
+        });
+    }
+
+    render(){
+
+        return (
+            <Router>
                 <div>
-                    <Route exact path='/' component={Home} />
-                    <Route path='/About' component={About} />
-                    <Route path='/Portfolio' component={Portfolio} />
-                    <Route path='/Resume' component={Resume} />
+                    <nav className="boxshadow d-flex flex-row justify-content-between px-5 py-4">
+                        <div className="align-items-center">
+                            <NavLink id="home-logo" to='/'>
+                                <img className="logo" src={this.state.imgSrc} alt="logo" onMouseEnter={this.playGif} onMouseLeave={this.stopGif} />
+                            </NavLink>
+                        </div>
+                        <div className="d-flex align-items-center">
+                        <NavLink className="nav-link ml-5" to='/About'>ABOUT</NavLink>
+                        <NavLink className="nav-link mx-5" to='/Portfolio'>PORTFOLIO</NavLink>
+                        <NavLink className="nav-link mr-5" to='/Resume'>RESUME</NavLink>
+                        </div>
+                    </nav>
+                    <div>
+                        <Route exact path='/' component={Home} />
+                        <Route path='/About' component={About} />
+                        <Route path='/Portfolio' component={Portfolio} />
+                        <Route path='/Resume' component={Resume} />
+                        <Route path='/ArtInvestigator' component={ArtInverstigator} />
+                    </div>
                 </div>
-            </div>
-        </Router>
-    );
+            </Router>
+        );
+    }
 }
-
 
 export default Nav;
 
