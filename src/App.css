@@ -28,14 +28,30 @@
 a,
 a:link,
 a:visited,
-a:active {
-  font-family: 'Space Mono', monospace;
-  color: #000;
+.nav-link,
+.nav-link:link,
+.nav-link:visited {
+font-family: 'Space Mono', monospace;
+color: #000;
 }
 
-a:hover {
+.nav-link:active {
+  color: #000;
+  background-color: yellow;
+  text-decoration: none;
+}
+
+a:hover,
+.nav-link:hover {
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
+  background-color: yellow;
+}
+
+#home-logo:hover ,
+#home-logo:active {
+  color: black;
+  text-decoration: none;
 }
 
 .boxshadow {
@@ -158,7 +174,8 @@ p {
   text-transform: uppercase;
   text-align: left;
   position: relative;
-  font-size: 2.3rem;
+  font-size: 4rem;
+  word-wrap: break-word;
   background-color: transparent;
   color: #FFF;
   padding: 1em 0;
@@ -191,7 +208,13 @@ p {
 
 /* logo */
 .logo {
-  transform: rotate(315deg);
-  width:50px;
-  height: 50px;
+  height: 4rem;
+  background: url('img/lmlogostill.png');
+  
 }
+
+  /*this is the hover event trigger*/
+  .logo:hover {
+    cursor:pointer; 
+    background:url('img/lmlogo.gif');
+  }
