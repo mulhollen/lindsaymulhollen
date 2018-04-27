@@ -1,5 +1,6 @@
 {
-  "name": "wide-world-travel",
+  "homepage": "http: //mulhollen.github.io/lindsaymulhollen",
+  "name": "lindsay-mulhollen",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,9 +13,14 @@
     "reactstrap": "^5.0.0-beta.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
   }
 }
