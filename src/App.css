@@ -10,11 +10,15 @@ h3 {
 .mainH1 {
   font-family: 'Space Mono', monospace;
   /* position: absolute; */
-  font-weight: bold;
   color: #000;
   /* top: 35%; */
   /* left: 7%; */
   /* z-index: 20; */
+}
+
+.portH1 {
+  font-family: 'Space Mono', monospace;
+  background-color: yellow;
 }
 
 .sans {
@@ -39,6 +43,10 @@ a:visited,
 .nav-link:visited {
 font-family: 'Space Mono', monospace;
 color: #000;
+}
+
+.portLink {
+  text-decoration: none !important;
 }
 
 .nav-link:active {
@@ -230,10 +238,15 @@ p {
     position: relative;
     z-index: 2;
     margin-top: -10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     border: 5px black solid;
   }
 
   .yellow {
     background-color: yellow;
+  }
+
+  .portPic{
+    object-fit: contain;
+    height: 40vw;
   }

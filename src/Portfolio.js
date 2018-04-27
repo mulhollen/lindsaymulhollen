@@ -18,7 +18,7 @@ class Portfolio extends Component {
                         <div className="hovereffect m-3">
                             <img src={lindsay} className="w-100" alt="logo" />
                             <div className="overlay">
-                                <Link className="nav-link" to='/ArtInvestigator'><h2>Art Investi-<br />gator</h2></Link>
+                                <Link className="portLink" to='/ArtInvestigator'><h2>Art<br />Investigator</h2></Link>
                             </div>
                         </div>
                         <div className="hovereffect m-3">
