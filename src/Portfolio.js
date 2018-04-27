@@ -7,7 +7,7 @@ import {
 import lindsay from './img/lindsay.jpg';
 import travel from './img/travel_React.jpg';
 import './App.css';
-import {ArtInvestigator} from './Projects.js';
+import ArtInvestigator from './ArtInvestigator.js';
 
 class Portfolio extends Component {
     render() {

@@ -12,7 +12,7 @@ import Resume from './Resume.js';
 import squiggle from './img/squiggleline.png';
 import logo from './img/lmlogostill.png';
 import gif from './img/lmlogo.gif';
-import ArtInverstigator from './ArtInverstigator';
+import ArtInverstigator from './ArtInvestigator.js';
 
 class Nav extends Component {
     
