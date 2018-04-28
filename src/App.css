@@ -81,39 +81,39 @@ p {
     -webkit-animation-delay: 3s; 
     -ms-animation-delay: 3s; 
     animation-delay: 3s; 
-    color: #6b889d;
+    color: #000000;
 }
 .animated-words span:nth-child(3) { 
     -webkit-animation-delay: 6s; 
     -ms-animation-delay: 6s; 
     animation-delay: 6s; 
-    color: #6b739d; 
+    color: #000000;
 }
 .animated-words span:nth-child(4) { 
     -webkit-animation-delay: 9s; 
     -ms-animation-delay: 9s; 
     animation-delay: 9s; 
-    color: #7a6b9d;
+    color: #000000;
 }
 .animated-words span:nth-child(5) { 
     -webkit-animation-delay: 12s; 
     -ms-animation-delay: 12s; 
     animation-delay: 12s; 
-    color: #8d6b9d;
+    color: #000000;
 }
 .animated-words span:nth-child(6) { 
     -webkit-animation-delay: 15s; 
     -ms-animation-delay: 15s; 
     animation-delay: 15s; 
-    color: #9b6b9d;
+    color: #000000;
 }
 
 .animated-words span {
     position: absolute;
-    margin-left: 6rem;
+    margin-left: 1rem;
     opacity: 0;
     overflow: hidden;
-    color: #6b969d;
+    color: #000000;
     -webkit-animation: animateWord 18s linear infinite 0s;
     -ms-animation: animateWord 18s linear infinite 0s;
     animation: animateWord 18s linear infinite 0s;
@@ -127,6 +127,11 @@ p {
     20% { opacity: 0; -webkit-transform: translateY(30px); }
     80% { opacity: 0; }
     100% { opacity: 0; }
+}
+
+.ml-words {
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .bodyWidth {
