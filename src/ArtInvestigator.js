@@ -7,6 +7,9 @@ import Portfolio from './Portfolio.js';
 import H1 from './components/H1.js';
 import Video from './components/Video.js';
 import Footer from './components/Footer.js';
+import liv from './img/ArtInvestigator/liv_app_2.jpg';
+import challenge from './img/ArtInvestigator/challenge.jpg';
+import search from './img/ArtInvestigator/search.jpg';
 
 
 class ArtInvestigator extends Component {
@@ -19,7 +22,7 @@ class ArtInvestigator extends Component {
                     <h3 className="m-5">Learn about art + grow emotional intelligence the fun way. Art Investigator is an accompaninment app for The Frist Museum's <i>Feat.</i> exhibit by Nick Cave. Focusing on building emotional intelligence, interest in art, and creating points of interaction for children ages 7 to 11 and their grownup.</h3>
                 </div>
                 <div className="bodyWidth d-flex justify-content-center yellow flex-row mb-3 mx-auto">
-                    <img className="pl-0 portPic" src={lindsay} alt="" />
+                    <img className="pl-0 portPic" src={challenge} alt="" />
                     <div>
                         <h3 className="px-5 pt-5">the challenge:</h3>                        
                         <p className="px-5 py-3">Art, especially gallery art and museum art, can be hard to digest and alienating for children. The goal of Art Investigator is to make museum art understandable, relatable, and fun for children at an early reading age (7-11 years old). Working with Nick Cave's Feat. exhibit at The Frist Center for the Visual Arts  in Nashville, Tennessee, Art Investigator is an interactive tour through the exhibit that focuses on learning, emotional intelligence, and creating interaction points for parents and their children.</p>
@@ -31,9 +34,9 @@ class ArtInvestigator extends Component {
                         <h3 className="px-5 pt-5">the challenge:</h3>
                         <p className="px-5 py-3">Art, especially gallery art and museum art, can be hard to digest and alienating for children. The goal of Art Investigator is to make museum art understandable, relatable, and fun for children at an early reading age (7-11 years old). Working with Nick Cave's Feat. exhibit at The Frist Center for the Visual Arts  in Nashville, Tennessee, Art Investigator is an interactive tour through the exhibit that focuses on learning, emotional intelligence, and creating interaction points for parents and their children.</p>
                     </div>
-                    <img className="pl-0 portPic" src={lindsay} alt="" />
+                    <img className="pl-0 portPic" src={search} alt="" />
                 </div>
-                <img class="w-100 mt-5" src={travel} alt="" />
+                <img class="w-100 mt-5" src={liv} alt="" />
                 <Footer />
             </div>
         );
