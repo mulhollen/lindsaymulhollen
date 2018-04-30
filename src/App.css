@@ -9,11 +9,13 @@ h3 {
 }
 .mainH1 {
   font-family: 'Space Mono', monospace;
-  /* position: absolute; */
   color: #000;
-  /* top: 35%; */
-  /* left: 7%; */
-  /* z-index: 20; */
+}
+
+.margin-neg {
+  position: absolute;
+  top: 40%;
+  width: 85%;
 }
 
 .portH1 {
