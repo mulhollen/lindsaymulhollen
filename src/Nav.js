@@ -14,6 +14,7 @@ import logo from './img/lmlogostill.png';
 import gif from './img/lmlogo.gif';
 import ArtInverstigator from './ArtInvestigator.js';
 
+
 class Nav extends Component {
     
     constructor(props) {
