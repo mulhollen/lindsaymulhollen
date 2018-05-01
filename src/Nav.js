@@ -13,6 +13,7 @@ import squiggle from './img/squiggleline.png';
 import logo from './img/lmlogostill.png';
 import gif from './img/lmlogo.gif';
 import ArtInverstigator from './ArtInvestigator.js';
+import EverythingHappens from './EverythingHappens';
 
 
 class Nav extends Component {
@@ -61,6 +62,7 @@ class Nav extends Component {
                         <Route path='/Portfolio' component={Portfolio} />
                         <Route path='/Resume' component={Resume} />
                         <Route path='/ArtInvestigator' component={ArtInverstigator} />
+                        <Route path='/EverythingHappens' component={EverythingHappens} />                        
                     </div>
                 </div>
             </Router>
