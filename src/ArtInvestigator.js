@@ -13,6 +13,7 @@ import search from './img/ArtInvestigator/search.jpg';
 import main from './img/ArtInvestigator/mainscreen.jpg';
 import soundsuit from './img/ArtInvestigator/soundsuit-square.jpg';
 
+
 class ArtInvestigator extends Component {
     render() {
         return (
@@ -65,12 +66,12 @@ class ArtInvestigator extends Component {
                     <div>
                         <h3 className="px-5 pt-5">the exhibit:</h3>
                         <p className="px-5 py-3">
-                            On first glance <i>Feat.</i> by Nick Cave is delightfully fun and kid accessible. Once you dig deeper into the bright, eclectic art Cave builds, you learn he builds armor that speaks to issues surrounding identity, social justice, specifically race, gun violence, and civic responsibility.
-                        </p>
-                        <p className="px-5 py-3">
+                            On first glance <i>Feat.</i> by Nick Cave is delightfully fun and kid accessible. Once you dig deeper, the bright, eclectic art Cave builds, speaks to issues surrounding identity, social justice, specifically race, gun violence, and civic responsibility.
+                       <br />
+                       <br />
                             Feeling particularly vulnerable after the beating of Rodney King, Cave began unintentionally collecting discarded and forgotten objects and creating soundsuits. Realizing only after the first completion, he had created something that could be worn which would conceal his race, gender, and class. 
-                        </p>
-                        <p className="px-5 py-3">
+                        <br />
+                        <br />
                             For me, there was a challenge in taking Cave’s feelings and motivations and sharing them with the user in a way that could help her relate without taking away the creativity and imagination evoked by the exhibit. Cave wants his art to spark viewers’ imaginations and aspirations, and it was important for me to let the app convey that as well. 
                         </p>                        
                     </div>

@@ -258,3 +258,11 @@ p {
     object-fit: contain;
     height: 40vw;
   }
+
+  /* Video */
+
+  iframe {
+    border: none;
+    width: 100%;
+    height: auto;
+  }
