@@ -19,7 +19,7 @@ class ArtInvestigator extends Component {
         return (
             <div>
                 {/* <Video className="static" video="https://assets.bonappetit.com/clips/5ace10e2d2b1c178c2958818/720p/pass/Kimchi_Pancakes-Step_01_v1_20180314.mp4.mp4" /> */}
-                <img class="w-100 mt-5" src={main} alt="" />                
+                <img class="w-100" src={main} alt="" />                
                 <div className="d-flex justify-content-center flex-column port-h1 bodyWidth">
                     <h1 className="mt-5 text-center portH1">What do you call an aligator wearing a vest?</h1>
                     <h3 className="m-5">Learn about art + grow emotional intelligence the fun way. Art Investigator is an accompaninment app for The Frist Museum's <i>Feat.</i> exhibit by Nick Cave. Focusing on building emotional intelligence, interest in art, and creating points of interaction for children ages 7 to 11 and their grown-up.</h3>
