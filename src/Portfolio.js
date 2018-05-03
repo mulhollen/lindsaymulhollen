@@ -25,7 +25,7 @@ class Portfolio extends Component {
                         <div className="hovereffect m-3">
                             <img src={neos} className="w-100" alt="logo" />
                             <div className="overlay">
-                                <h2>NDT<br />+ ODI</h2>
+                                <h2>Neos<br />Dance<br />Theatre</h2>
                             </div>
                         </div>
                     </div>

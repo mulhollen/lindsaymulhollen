@@ -51,6 +51,7 @@ color: #000;
   text-decoration: none !important;
 }
 
+.active,
 .nav-link:active {
   color: #000;
   background-color: yellow;
@@ -256,4 +257,12 @@ p {
   .portPic{
     object-fit: contain;
     height: 40vw;
+  }
+
+  /* Video */
+
+  iframe {
+    border: none;
+    width: 100%;
+    height: auto;
   }
