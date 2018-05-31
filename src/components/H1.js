@@ -7,21 +7,21 @@ class H1 extends Component {
     render() {
         return (
             <div className="margin-neg m-5 pt-5 mainH1 d-flex justify-content-center flex-column">
-                <h1 className="ml-words yellow">{emojis[775]}&nbsp;Hey, it's Lindsay!</h1>
-                <div className="d-flex flex-row justify-content-start ml-words">
-                    <h1 className="yellow">I Make:</h1>
+                <h1 className="ml-words sizefix">{emojis[775]}&nbsp;hey, it's lindsay!</h1>
+                <div className="d-flex flex-row justify-content-start ml-words sizefix">
+                    <h1 className="sizefix">i make:</h1>
                     <div className="">
-                        <h1 className="animated-words">
-                            <span className="yellow">Fun&nbsp;Websites.</span>
-                            <span className="yellow">Thoughtful&nbsp;UI&nbsp;Design.</span>
-                            <span className="yellow">Inovative&nbsp;User&nbsp;Experiences.</span>
-                            <span className="yellow">An&nbsp;Awesome&nbsp;Dance&nbsp;Party.</span>
-                            <span className="yellow">Decent&nbsp;Guacamole.</span>
-                            <span className="yellow">Coding&nbsp;Fun.</span>
+                        <h1 className="animated-words sizefix">
+                            <span className="">fun&nbsp;websites.</span>
+                            <span className="">thoughtful&nbsp;UI</span>
+                            <span className="">innovative&nbsp;UX</span>
+                            <span className="">an&nbsp;awesome&nbsp;dance&nbsp;party.</span>
+                            <span className="">decent&nbsp;guacamole.</span>
+                            <span className="">coding&nbsp;fun.</span>
                         </h1>
                     </div>
                 </div>
-                <h1 className="ml-words yellow">&nbsp;</h1>                
+                <h1 className="ml-words display-4">&nbsp;</h1>                
             </div>
         );
     }

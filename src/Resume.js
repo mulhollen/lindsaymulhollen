@@ -5,14 +5,14 @@ import {
     Link,
 } from 'react-router-dom';
 import './App.css';
-import resume from './img/LindsayMulhollenResume.pdf';
+import resume from './img/LindsayMulhollenResume.png';
 import Footer from './components/Footer.js';
 
 class Resume extends Component {
     render() {
         return (
             <div>
-                <embed src={resume} className="w-100 height-full" type='application/pdf' />                
+                <img src={resume} className="w-100" />                
                 <Footer />
             </div>
         );

@@ -9,11 +9,13 @@ import Video from './components/Video.js';
 import Footer from './components/Footer.js';
 
 
+
 class Home extends Component {
+    
     render() {
         return (
             <div>
-                <Video video="https://assets.bonappetit.com/clips/5ace10e2d2b1c178c2958818/720p/pass/Kimchi_Pancakes-Step_01_v1_20180314.mp4.mp4" />
+                <Video video="https://firebasestorage.googleapis.com/v0/b/lm-personal-site.appspot.com/o/Art-Investigator-Vid.mp4?alt=media&token=c75b8964-e397-4c69-b8b8-862549f8b109" />
                 <H1 />
                 <Portfolio />
                 <Footer />
@@ -23,3 +25,5 @@ class Home extends Component {
 }
 
 export default Home;
+
+

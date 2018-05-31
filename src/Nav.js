@@ -46,7 +46,7 @@ class Nav extends Component {
                 <div>
                     <nav className="boxshadow d-flex flex-row justify-content-between px-5 py-4">
                         <div className="align-items-center">
-                            <NavLink id="home-logo" to='/'>
+                            <NavLink id="home-logo" to='/LindsayMulhollen'>
                                 <img className="logo" src={this.state.imgSrc} alt="logo" onMouseEnter={this.playGif} onMouseLeave={this.stopGif} />
                             </NavLink>
                         </div>
@@ -57,7 +57,7 @@ class Nav extends Component {
                         </div>
                     </nav>
                     <div>
-                        <Route exact path='/' component={Home} />
+                        <Route exact path='/LindsayMulhollen' component={Home} />
                         <Route path='/About' component={About} />
                         <Route path='/Portfolio' component={Portfolio} />
                         <Route path='/Resume' component={Resume} />

@@ -17,7 +17,7 @@ class About extends Component {
                     <img src={lindsay} className="" alt="logo" />
                 </div>
                 <div className="aboutWidth ml-5">
-                    <h1 className="mb-4">It's ya girl {emojis[1244]}</h1>
+                    <h1 className="mb-4 nunito">It's ya girl {emojis[1244]}</h1>
                     <p>
                         Inspired to get a start in development after encountering interactive museum exhibits, I'm growing my passion for puzzle solving, brainstorming, and outside of the box thinking as an Apprentice Front-end Developer + UX/UI Designer at Nashville Software School. 
                         <br />
