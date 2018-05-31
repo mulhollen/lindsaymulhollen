@@ -10,10 +10,6 @@ class App extends Component {
         <header>
           <Nav />
         </header>
-        <body>
-        </body>
-        <footer>
-        </footer>
       </div>
     );
   }

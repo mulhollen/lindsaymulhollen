@@ -4,7 +4,7 @@ import {
     Route,
     Link,
 } from 'react-router-dom';
-import travel from './img/travel_React.jpg';
+import emojis from 'emojis-list';
 import AI from './img/ArtInvestigator/ArtInvestigator.jpg';
 import ArtInvestigator from './ArtInvestigator.js';
 import neos from './img/NDT/neos.jpg';
@@ -15,7 +15,7 @@ class Portfolio extends Component {
     render() {
         return (
             <div>
-                <h1 className="display-4 text-center nunito my-5">here's what I've been working on:</h1>
+                <h1 className="text-center nunito my-5">{emojis[2431]} here's what I've been working on:</h1>
                 <div>
                     <div className="d-flex flex-row">
                         <div className="hovereffect m-3">
