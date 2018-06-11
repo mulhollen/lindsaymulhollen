@@ -45,12 +45,12 @@ class Nav extends Component {
             <Router>
                 <div>
                     <nav className="boxshadow d-flex flex-row justify-content-between px-5 py-4">
-                        <div className="align-items-center">
+                        <div className="align-items-center ">
                             <NavLink id="home-logo" to='/LindsayMulhollen'>
-                                <img className="logo" src={this.state.imgSrc} alt="logo" onMouseEnter={this.playGif} onMouseLeave={this.stopGif} />
+                                <img className="logo moblie-nav" src={this.state.imgSrc} alt="logo" onMouseEnter={this.playGif} onMouseLeave={this.stopGif} />
                             </NavLink>
                         </div>
-                        <div className="d-flex align-items-center">
+                        <div className="lilNav">
                         <NavLink className="nav-link ml-5" to='/About'>ABOUT</NavLink>
                         <NavLink className="nav-link mx-5" to='/Portfolio'>PORTFOLIO</NavLink>
                         <NavLink className="nav-link mr-5" to='/Resume'>RESUME</NavLink>

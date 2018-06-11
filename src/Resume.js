@@ -1,9 +1,4 @@
 import React, { Component } from 'react';
-import {
-    BrowserRouter as Router,
-    Route,
-    Link,
-} from 'react-router-dom';
 import './App.css';
 import resume from './img/LindsayMulhollenResume.png';
 import Footer from './components/Footer.js';
@@ -11,8 +6,10 @@ import Footer from './components/Footer.js';
 class Resume extends Component {
     render() {
         return (
-            <div>
-                <img src={resume} className="w-100" />                
+            <div className="">
+                <div className="d-flex justify-content-center justify-content-start">
+                    <img src={resume} className="resumeWidth" />                
+                </div>
                 <Footer />
             </div>
         );
