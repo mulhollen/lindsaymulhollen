@@ -5,46 +5,34 @@ h1 {
   font-family: 'Nunito', sans-serif;
 }
 
-.nunito {
-  font-family: 'Nunito', sans-serif;
-}
-
 h3 {
   font-family: 'Nunito', sans-serif;
 }
 
-.mainH1 {
-  font-family: 'Nunito', sans-serif;  
-  color: #000;
-}
-.sizefix {
-  font-size: 4rem;      
+p {
+  font-family: 'Work Sans', sans-serif;
 }
 
-.margin-neg {
-  position: absolute;
-  top: 15%;
-  left: -13%;
-  width: 85%;
-}
-
-.portH1 {
-  font-family: 'Nunito', sans-serif;  
-  background-color: yellow;
+.nunito {
+  font-family: 'Nunito', sans-serif;
 }
 
 .sans {
   font-family: 'Work Sans', monospace;  
 }
 
-/* for Resume and embedding it */
-.height-full {
-  height: 100vw;
+/* Nav / Navlinks / links */
+
+/* logo */
+.logo {
+height: 4rem;
+background: url('img/lmlogostill.png');
 }
 
-
-.aboutWidth {
-  width: 39%;
+/*this is the hover event trigger*/
+.logo:hover {
+  cursor:pointer; 
+  background:url('img/lmlogo.gif');
 }
 
 a,
@@ -80,14 +68,98 @@ a:hover,
   color: black;
   text-decoration: none;
 }
+/* end Nav / Navlinks / links */
 
-.boxshadow {
+
+/* home */
+
+.mainH1 {
+  font-family: 'Nunito', sans-serif;  
+  color: #000;
+  margin: 22vh 15%;
+}
+
+.displayFont {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.boxshadow /* for the nav */ {
  border-bottom: 10px solid black;
 }
 
-p {
-  font-family: 'Work Sans', sans-serif;
+.lilNav {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  align-items: center;
 }
+/* end home */
+
+
+/* individual portfolio page */
+
+.portH1 /* portofolio h1 */ {
+  font-family: 'Nunito', sans-serif;  
+  background-color: yellow;
+}
+
+.bodyWidth {
+    width: 85%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.port-h1 {
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  margin-top: -10%;
+  margin-bottom: 5%;
+  border: 5px black solid;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.portPic{
+  object-fit: contain;
+  height: 40vw;
+}
+
+ /* Video */  
+  video {
+  background-color: white;
+  background-position: center center;
+  background-size: contain;
+}
+/* end individual portfolio page */
+
+/* Resume Page */
+/* for Resume and embedding it */
+.resumeWidth {
+  width: 75%;
+  margin-left:auto;
+  margin-right:auto;
+  object-fit: scale-down;
+}
+
+/* end Resume Page */
+
+/* About Page */
+
+.aboutWidth {
+  width: 39%;
+}
+/* End About Page */
+
+/*  */
+/*  */
+/*  */
+
+/* verbose css */
 
 /* main h1 */
 .animated-words span:nth-child(2) { 
@@ -142,19 +214,12 @@ p {
     100% { opacity: 0; }
 }
 
-.ml-words {
-  margin-left: 15%;
-  margin-right: 15%;
-  font-size: 3.5rem;    
-}
+/* end main h1 */
 
-.bodyWidth {
-    width: 85%;
-    margin-left:auto;
-    margin-right:auto;
-}
 
-/* hover styling */
+
+/* hover styling for portfolio compilation*/
+
 .hovereffect {
   width: 100%;
   height: 100%;
@@ -239,94 +304,66 @@ p {
   transform: translate3d(0,0,0);
 }
 
-/* logo */
-.logo {
-  height: 4rem;
-  background: url('img/lmlogostill.png');
-}
-
-  /*this is the hover event trigger*/
-  .logo:hover {
-    cursor:pointer; 
-    background:url('img/lmlogo.gif');
-  }
-
-  /* project page */
-  .port-h1 {
-    background-color: white;
-    position: relative;
-    z-index: 2;
-    margin-top: -10%;
-    margin-bottom: 5%;
-    border: 5px black solid;
-  }
-
-  .yellow {
-    background-color: yellow;
-  }
-
-  .portPic{
-    object-fit: contain;
-    height: 40vw;
-  }
-
-  /* Video */
-
-  /* iframe {
-    border: none;
-    width: 100%;
-    height: auto;
-  } */
+/* end hover styling for portfolio compilation*/
 
 
-  /* #myvid {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  } */
-  
-  video {
-  background-color: black;
-  background-position: center center;
-  background-size: contain;
-}
 
 /* media queries */
 
-  /* Custom, iPhone Retina */ 
-    @media only screen and (min-width : 320px) {
-      .sizefix {
-        font-size: 1rem;
-      }
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
 
-      .hovereffect h2 {
-        font-size: 1rem;
-      }
+  .hovereffect h2 {
+    font-size: 1rem;
+  }
 
-    }
+  .displayFont {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1;
+}
 
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 480px) {
-      .sizefix {
-        font-size: 1rem;
-      }
+  .lilNav{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-      .hovereffect h2 {
-        font-size: 1rem;
-      }
-    }
+}
 
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
 
-      .sizefix {
-        font-size: 2rem;
-      }
+  .hovereffect h2 {
+    font-size: 1rem;
+  }
 
-      .hovereffect h2 {
-        font-size: 3rem;
-      }
+  .displayFont {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1;
+}
 
-    }
+  .lilNav{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+  .hovereffect h2 {
+    font-size: 3rem;
+  }
+  
+  .displayFont {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+}
