@@ -23,15 +23,15 @@ class MinimalPortfolio extends Component {
                     </div>
                     <div className="d-flex flex-row">
                         <div className="hovereffect m-3">
-                            <img src={EverythingHappens} className="w-100" alt="logo" />
+                            <img src={neos} className="w-100" alt="logo" />
                             <div className="overlay">
-                                <Link className="portLink" to='/EverythingHappens'><h2>everything<br />happens</h2></Link>
+                                <Link className="portLink" to='/Canvas'><h2>canvas</h2></Link>
                             </div>
                         </div>
                         <div className="hovereffect m-3">
-                            <img src={neos} className="w-100" alt="logo" />
+                            <img src={EverythingHappens} className="w-100" alt="logo" />
                             <div className="overlay">
-                                <h2>neos<br />dance<br />theatre</h2>
+                                <Link className="portLink" to='/EverythingHappens'><h2>everything<br />happens</h2></Link>
                             </div>
                         </div>
                     </div>

@@ -24,7 +24,7 @@ class ArtInvestigator extends Component {
                     <h1 className="mt-5 text-center portH1">What do you call an aligator wearing a vest?</h1>
                     <h3 className="m-5">Learn about art + grow emotional intelligence the fun way. Art Investigator is an accompaninment app for The Frist Museum's <i>Feat.</i> exhibit by Nick Cave. Focusing on building emotional intelligence, interest in art, and creating points of interaction for children ages 7 to 11 and their grown-up.</h3>
                 </div>
-                <div className="bodyWidth d-flex justify-content-center yellow flex-row mb-3 mx-auto">
+                <div className="bodyWidth d-flex justify-content-center yellow mb-3 mx-auto flip">
                     <div>
                         <h3 className="px-5 pt-5">meet evie and michelle.</h3>
                         <p className="px-5 py-3">
@@ -44,7 +44,7 @@ class ArtInvestigator extends Component {
                         </p>
                     </div>
                 </ div>
-                <div className="bodyWidth d-flex justify-content-center yellow flex-row my-3 mx-auto">
+                <div className="bodyWidth d-flex justify-content-center yellow flip my-3 mx-auto">
                     <img className="pl-0 portPic" src={search} alt="" />
                     <div>
                         <h3 className="px-5 pt-5">user focused goals:</h3>
@@ -62,7 +62,7 @@ class ArtInvestigator extends Component {
                     <i>"Olivia CANNOT stop talking about [Art Investigator]. She came into my bed last night and said she was so happy that she saw how someone else faced their fears. We got to have a great conversation about fears and power!"</i>
                     </h3>
                 </ div>
-                <div className="bodyWidth d-flex justify-content-center yellow flex-row mb-3 mx-auto">
+                <div className="bodyWidth d-flex justify-content-center yellow flip mb-3 mx-auto">
                     <div>
                         <h3 className="px-5 pt-5">the exhibit:</h3>
                         <p className="px-5 py-3">
@@ -76,6 +76,28 @@ class ArtInvestigator extends Component {
                         </p>                        
                     </div>
                     <img className="pl-0 portPic" src={soundsuit} alt="" />
+                </div>
+                <div class="bodyWidth p-5 my-5 border border-dark">
+                    <div>
+                        <h3 className="mb-4">the code:</h3>
+                        <p className="px-5 py-3">
+                            Art, especially gallery art and museum art, can be hard to digest and alienating for children. The goal of Art Investigator is to make museum art understandable, relatable, and fun for children at an early reading age (7-11 years old). The challenge was creating a learning based app that grows emotional intelligence, relates children to the artist, and creates interaction points for parents and their children without overwhelming the exhibit itself.<br /><br />
+                            Working with Early Childhood Education Teacher, Rebecca Sacramone, and K-12 Education Technology Professional of The Cleveland Institute of Music, Heather Young Mandujano, a lesson plan focusing on Nick Cave, his wide range of artistic mediums, and the related emotional intelligence of vulnerability was developed. Working with Adventure Science Center designer Jim Savelyev, interaction points for parents and their children were constructed.
+                        </p>
+                    </div>
+                </ div>
+                <div className="bodyWidth d-flex justify-content-center yellow flip my-3 mx-auto">
+                    <img className="pl-0 portPic" src={search} alt="" />
+                    <div>
+                        <h3 className="px-5 pt-5">lessons learned:</h3>
+                        <ul className="px-5 py-3">
+                            <li>Create an engaging and interactive way for the user to experience and understand art.</li>
+                            <li>Design a storybook style app that allows the user to be engaged in a linear way and not to feel like they are just reading the museum placards.</li>
+                            <li>Foster realitibly and interactibility for the user to feel like they are a part of the process using relatibility as a way to create solid foundations for learning and emotional intelligence.</li>
+                            <li>Build activities to engage users and eliminate monotony fatigue, allowing the user to focus on and digest the exhibit.</li>
+                            <li>Produce genuine interaction points between primary users and their guardians that teach vocabulary, emotional intelligence, and art.</li>
+                        </ul>
+                    </div>
                 </div>
                 <img class="w-100 mt-5" src={liv} alt="" />
                 <Footer />

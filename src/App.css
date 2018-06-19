@@ -23,6 +23,10 @@ p {
 
 /* Nav / Navlinks / links */
 
+nav {
+  padding: 0 3rem;
+}
+
 /* logo */
 .logo {
 height: 4rem;
@@ -77,6 +81,13 @@ a:hover,
   font-family: 'Nunito', sans-serif;  
   color: #000;
   margin: 22vh 15%;
+  padding: 3rem;
+}
+
+.h1JS {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
 }
 
 .displayFont {
@@ -129,6 +140,10 @@ a:hover,
   height: 40vw;
 }
 
+.flip {
+  flex-direction: row;
+}
+
  /* Video */  
   video {
   background-color: white;
@@ -152,6 +167,11 @@ a:hover,
 
 .aboutWidth {
   width: 39%;
+  margin-left: 3rem;
+}
+
+.about-div {
+  flex-direction: row;
 }
 /* End About Page */
 
@@ -322,6 +342,9 @@ a:hover,
   font-weight: 300;
   line-height: 1;
 }
+.displayFontH1 {
+  padding-top: .5rem;
+}
 
   .lilNav{
     display: flex;
@@ -330,7 +353,50 @@ a:hover,
     align-items: center;
   }
 
+  .aboutWidth {
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 3rem;
+  }
+
+  .about-div {
+    flex-direction: column-reverse;
+  }
+
+  .pic-center {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+  }
+
+  nav {
+  padding: 0;
+  }
+
+  .mainH1 {
+  font-family: 'Nunito', sans-serif;  
+  color: #000;
+  margin: 22vh 1rem;
+  padding: 0;
+  }
+
+  .h1JS {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    padding: 0 .5rem 2.5rem .5rem;
+  }
+
+  .animated-words span {
+  margin-left: 0;
+  }
+
+.flip{
+  flex-direction: column;
 }
+
+}
+
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
@@ -345,12 +411,58 @@ a:hover,
   line-height: 1;
 }
 
+.displayFontH1 {
+  padding-top: .5rem;
+}
+
   .lilNav{
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
     align-items: center;
   }
+
+  .aboutWidth {
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 3rem;
+  }
+
+  .about-div {
+    flex-direction: column-reverse;
+  }
+
+  .pic-center {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+  }
+  
+  nav {
+  padding: 0;
+  }
+
+  .mainH1 {
+  font-family: 'Nunito', sans-serif;  
+  color: #000;
+  margin: 22vh 1rem;
+  padding: 0;
+  }
+
+  .h1JS {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    padding: 0 .5rem 2.5rem .5rem;
+  }
+
+  .animated-words span {
+  margin-left: 0;
+  }
+
+  .flip{
+  flex-direction: column;
+}
 }
 
 /* Small Devices, Tablets */
@@ -364,6 +476,53 @@ a:hover,
   font-size: 2rem;
   font-weight: 300;
   line-height: 1;
+}
+
+.displayFontH1 {
+  padding-top: .5rem;
+}
+
+.aboutWidth {
+  width: 100%;
+  margin-bottom: 3rem;
+  margin-left: 0;
+}
+
+.about-div {
+  flex-direction: column-reverse;
+}
+
+.pic-center {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+}
+
+nav {
+  padding: 0;
+}
+
+
+.mainH1 {
+  font-family: 'Nunito', sans-serif;  
+  color: #000;
+  margin: 22vh 1rem;
+  padding: 0;
+}
+
+.h1JS {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  padding: 0 .5rem 2.5rem .5rem;
+}
+
+.animated-words span{
+  margin-left: 0;
+}
+
+.flip{
+  flex-direction: column;
 }
 
 }
