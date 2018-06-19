@@ -23,6 +23,10 @@ p {
 
 /* Nav / Navlinks / links */
 
+nav {
+  padding: 0 3rem;
+}
+
 /* logo */
 .logo {
 height: 4rem;
@@ -152,6 +156,11 @@ a:hover,
 
 .aboutWidth {
   width: 39%;
+  margin-left: 3rem;
+}
+
+.about-div {
+  flex-direction: row;
 }
 /* End About Page */
 
@@ -330,7 +339,28 @@ a:hover,
     align-items: center;
   }
 
+  .aboutWidth {
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 3rem;
+  }
+
+  .about-div {
+    flex-direction: column-reverse;
+  }
+
+  .pic-center {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+  }
+
+  nav {
+  padding: 0;
+  }
+
 }
+
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
@@ -351,6 +381,26 @@ a:hover,
     flex-direction: column;
     align-items: center;
   }
+
+  .aboutWidth {
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 3rem;
+  }
+
+  .about-div {
+    flex-direction: column-reverse;
+  }
+
+  .pic-center {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+  }
+  
+  nav {
+  padding: 0;
+  }
 }
 
 /* Small Devices, Tablets */
@@ -364,6 +414,26 @@ a:hover,
   font-size: 2rem;
   font-weight: 300;
   line-height: 1;
+}
+
+.aboutWidth {
+  width: 100%;
+  margin-bottom: 3rem;
+  margin-left: 0;
+}
+
+.about-div {
+  flex-direction: column-reverse;
+}
+
+.pic-center {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+}
+
+nav {
+  padding: 0;
 }
 
 }

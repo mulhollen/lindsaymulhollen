@@ -9,11 +9,11 @@ class About extends Component {
     render() {
         return (
             <div>
-                <div className="bodyWidth d-flex flex-row justify-content-center mt-5">
-                    <div className="">
+                <div className="bodyWidth d-flex justify-content-center mt-5 about-div">
+                    <div className="pic-center">
                         <img src={lindsay} className="" alt="logo" />
                     </div>
-                    <div className="aboutWidth ml-5">
+                    <div className="aboutWidth">
                         <h1 className="mb-4 nunito">It's ya girl {emojis[1244]}</h1>
                         <p>
                             Inspired to get a start in development after encountering interactive museum exhibits, I'm growing my passion for puzzle solving, brainstorming, and outside of the box thinking as an Apprentice Front-end Developer + UX/UI Designer at Nashville Software School. 

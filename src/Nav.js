@@ -14,6 +14,7 @@ import logo from './img/lmlogostill.png';
 import gif from './img/lmlogo.gif';
 import ArtInverstigator from './ArtInvestigator.js';
 import EverythingHappens from './EverythingHappens';
+import Canvas from './Canvas';
 
 
 class Nav extends Component {
@@ -44,16 +45,16 @@ class Nav extends Component {
         return (
             <Router>
                 <div>
-                    <nav className="boxshadow d-flex flex-row justify-content-between px-5 py-4">
+                    <nav className="boxshadow d-flex flex-row justify-content-between py-4">
                         <div className="align-items-center ">
                             <NavLink id="home-logo" to='/LindsayMulhollen'>
                                 <img className="logo moblie-nav" src={this.state.imgSrc} alt="logo" onMouseEnter={this.playGif} onMouseLeave={this.stopGif} />
                             </NavLink>
                         </div>
                         <div className="lilNav">
-                        <NavLink className="nav-link ml-5" to='/About'>ABOUT</NavLink>
-                        <NavLink className="nav-link mx-5" to='/Portfolio'>PORTFOLIO</NavLink>
-                        <NavLink className="nav-link mr-5" to='/Resume'>RESUME</NavLink>
+                        <NavLink className="nav-link mx-4" to='/Portfolio'>PORTFOLIO</NavLink>
+                        <NavLink className="nav-link mx-4" to='/About'>ABOUT</NavLink>
+                        <NavLink className="nav-link mx-4" to='/Resume'>RESUME</NavLink>
                         </div>
                     </nav>
                     <div>
@@ -62,7 +63,8 @@ class Nav extends Component {
                         <Route path='/Portfolio' component={Portfolio} />
                         <Route path='/Resume' component={Resume} />
                         <Route path='/ArtInvestigator' component={ArtInverstigator} />
-                        <Route path='/EverythingHappens' component={EverythingHappens} />                        
+                        <Route path='/EverythingHappens' component={EverythingHappens} />        
+                        <Route path='/Canvas' component={Canvas} />                                                
                     </div>
                 </div>
             </Router>

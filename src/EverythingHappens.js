@@ -20,7 +20,7 @@ class EverythingHappens extends Component {
                 <img class="w-100" src={main} alt="" />
                 <div className="d-flex justify-content-center flex-column port-h1 bodyWidth">
                     <h1 className="mt-5 text-center portH1">Ideally, where do you see yourself in five years?</h1>
-                    <h3 className="m-5">A collaborative dance + interactive media piece that looks into hopes, dreams, and post-collegiate dissonance.</h3>
+                    <h3 className="m-5">A collaborative dance + interactive media piece that looks into hopes, dreams, and post-collegiate dissonance. Using research to inspire choreography, video production,  and set design,  <i>Everything Happens</i> was a live concert work of integrated media design and modern dance.</h3>
                 </div>
                 <div className="bodyWidth d-flex justify-content-center yellow flex-row mb-3 mx-auto">
                     <img className="pl-0 portPic" src={interview} alt="" />

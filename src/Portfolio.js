@@ -7,9 +7,10 @@ import {
 import emojis from 'emojis-list';
 import AI from './img/ArtInvestigator/ArtInvestigator.jpg';
 import ArtInvestigator from './ArtInvestigator.js';
-import neos from './img/NDT/neos.jpg';
-import EverythingHappens from './img/EverythingHappens/EHsquare.jpg';
+import EverythingHappens from './img/EverythingHappens/kristen.jpg';
+import Canvas from './Canvas.js';
 import './App.css';
+import Footer from './components/Footer';
 
 class Portfolio extends Component {
     render() {
@@ -17,15 +18,16 @@ class Portfolio extends Component {
             <div className="bodyWidth">
                 <h1 className="text-center nunito my-5">{emojis[2431]} here's what I've been working on:</h1>
                 <div>
+                    {/* Art Investigator */}
                     <div className="d-flex flex-column mx-auto">
-                        <div className="hovereffect m-3">
+                        <div className="hovereffect my-3">
                             <img src={AI} className="w-100" alt="logo" />
                             <div className="overlay">
                                 <Link className="portLink" to='/ArtInvestigator'><h2>art<br />investigator</h2></Link>
                             </div>
                         </div>
                         {/* the about */}
-                        <div className="d-flex justify-content-center yellow flex-row">
+                        <div className="d-flex mx-auto yellow flex-row">
                             <div>
                                 <h3 className="px-5 pt-5">art investigator.</h3>
                                 <p className="px-5 py-3">
@@ -36,21 +38,48 @@ class Portfolio extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="d-flex flex-row">
-                        <div className="hovereffect m-3">
-                            <img src={EverythingHappens} className="w-100" alt="logo" />
+                    {/* Canvas */}
+                    <div className="d-flex flex-column mx-auto">
+                        <div className="hovereffect my-3">
+                            <img src={AI} className="w-100" alt="logo" />
                             <div className="overlay">
-                                <Link className="portLink" to='/EverythingHappens'><h2>everything<br />happens</h2></Link>                          
+                                <Link className="portLink" to='/Canvas'><h2>canvas</h2></Link>
                             </div>
                         </div>
-                        <div className="hovereffect m-3">
-                            <img src={neos} className="w-100" alt="logo" />
+                        {/* the about */}
+                        <div className="d-flex mx-auto yellow flex-row">
+                            <div>
+                                <h3 className="px-5 pt-5">canvas.</h3>
+                                <p className="px-5 py-3">
+                                    Canvas is a multi-player, gamified, interactive art experience in the vain of The Cleveland Museum of Art ARTLENS Gallery exhibits. Canvas pits one to four players against each other to create a sort of exquisite corps of a broken-up piece of fine art.
+                                <br /><br />
+                                    <i className="text-muted"> React - Firebase - Rebase - Local Storage - React Canvas Draw - React Color - React Router Dom - Bootstrap</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Everything Happens */}
+                    <div className="d-flex flex-column mx-auto">
+                        <div className="hovereffect my-3">
+                            <img src={EverythingHappens} className="w-100" alt="logo" />
                             <div className="overlay">
-                                <h2>neos<br />dance<br />theatre</h2>
+                                <Link className="portLink" to='/EverythingHappens'><h2>everything<br />happens</h2></Link>
+                            </div>
+                        </div>
+                        {/* the about */}
+                        <div className="d-flex mx-auto yellow flex-row">
+                            <div>
+                                <h3 className="px-5 pt-5">everything happens.</h3>
+                                <p className="px-5 py-3">
+                                    A collaborative dance + interactive media piece that looks into hopes, dreams, and post-collegiate dissonance. Using research to inspire choreography, video production,  and set design,  <i>Everything Happens</i> was a live concert work of integrated media design and modern dance.
+                                <br /><br />
+                                    <i className="text-muted">Media Design - Stage Managing - Set Design - Video Production in Avid Media Composer & Adobe After Effects - Lighting Design</i>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <Footer />
             </div >
         );
     }
