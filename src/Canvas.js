@@ -23,7 +23,7 @@ class Canvas extends Component {
                     <h3 className="m-5">
                         Canvas is a multi-player, gamified, interactive art experience in the vain of The Cleveland Museum of Art ARTLENS Gallery exhibits. Canvas pits one to four players against each other to create a sort of exquisite corps of a broken-up piece of fine art.</h3>
                 </div>
-                <div className="bodyWidth d-flex justify-content-center yellow flex-row mb-3 mx-auto">
+                <div className="bodyWidth d-flex justify-content-center yellow flip mb-3 mx-auto">
                     <div>
                         <h3 className="px-5 pt-5">meet sidney and charlie.</h3>
                         <p className="px-5 py-3">
@@ -42,7 +42,7 @@ class Canvas extends Component {
                         </p>
                     </div>
                 </ div>
-                <div className="bodyWidth d-flex justify-content-center yellow flex-row my-3 mx-auto">
+                <div className="bodyWidth d-flex justify-content-center yellow flip my-3 mx-auto">
                     <img className="pl-0 portPic" src={sid} alt="" />
                     <div>
                         <h3 className="px-5 pt-5">user focused goals:</h3>
@@ -59,7 +59,7 @@ class Canvas extends Component {
                         <i>"Olivia CANNOT stop talking about [Art Investigator]. She came into my bed last night and said she was so happy that she saw how someone else faced their fears. We got to have a great conversation about fears and power!"</i>
                     </h3>
                 </ div>
-                <div className="bodyWidth d-flex justify-content-center yellow flex-row mb-3 mx-auto">
+                <div className="bodyWidth d-flex justify-content-center yellow flip mb-3 mx-auto">
                     <div>
                         <h3 className="px-5 pt-5">the Cleveland Museum of Art:</h3>
                         <p className="px-5 py-3">
@@ -82,7 +82,7 @@ class Canvas extends Component {
                         </p>
                     </div>
                 </ div>
-                <div className="bodyWidth d-flex justify-content-center yellow flex-row my-3 mx-auto">
+                <div className="bodyWidth d-flex justify-content-center yellow flip my-3 mx-auto">
                     <img className="pl-0 portPic" src={sid} alt="" />
                     <div>
                         <h3 className="px-5 pt-5">Version 2.0.</h3>

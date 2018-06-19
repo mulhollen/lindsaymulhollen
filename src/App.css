@@ -81,6 +81,13 @@ a:hover,
   font-family: 'Nunito', sans-serif;  
   color: #000;
   margin: 22vh 15%;
+  padding: 3rem;
+}
+
+.h1JS {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
 }
 
 .displayFont {
@@ -131,6 +138,10 @@ a:hover,
 .portPic{
   object-fit: contain;
   height: 40vw;
+}
+
+.flip {
+  flex-direction: row;
 }
 
  /* Video */  
@@ -331,6 +342,9 @@ a:hover,
   font-weight: 300;
   line-height: 1;
 }
+.displayFontH1 {
+  padding-top: .5rem;
+}
 
   .lilNav{
     display: flex;
@@ -358,6 +372,28 @@ a:hover,
   nav {
   padding: 0;
   }
+
+  .mainH1 {
+  font-family: 'Nunito', sans-serif;  
+  color: #000;
+  margin: 22vh 1rem;
+  padding: 0;
+  }
+
+  .h1JS {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    padding: 0 .5rem 2.5rem .5rem;
+  }
+
+  .animated-words span {
+  margin-left: 0;
+  }
+
+.flip{
+  flex-direction: column;
+}
 
 }
 
@@ -375,6 +411,10 @@ a:hover,
   line-height: 1;
 }
 
+.displayFontH1 {
+  padding-top: .5rem;
+}
+
   .lilNav{
     display: flex;
     display: -webkit-flex;
@@ -401,6 +441,28 @@ a:hover,
   nav {
   padding: 0;
   }
+
+  .mainH1 {
+  font-family: 'Nunito', sans-serif;  
+  color: #000;
+  margin: 22vh 1rem;
+  padding: 0;
+  }
+
+  .h1JS {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    padding: 0 .5rem 2.5rem .5rem;
+  }
+
+  .animated-words span {
+  margin-left: 0;
+  }
+
+  .flip{
+  flex-direction: column;
+}
 }
 
 /* Small Devices, Tablets */
@@ -414,6 +476,10 @@ a:hover,
   font-size: 2rem;
   font-weight: 300;
   line-height: 1;
+}
+
+.displayFontH1 {
+  padding-top: .5rem;
 }
 
 .aboutWidth {
@@ -434,6 +500,29 @@ a:hover,
 
 nav {
   padding: 0;
+}
+
+
+.mainH1 {
+  font-family: 'Nunito', sans-serif;  
+  color: #000;
+  margin: 22vh 1rem;
+  padding: 0;
+}
+
+.h1JS {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  padding: 0 .5rem 2.5rem .5rem;
+}
+
+.animated-words span{
+  margin-left: 0;
+}
+
+.flip{
+  flex-direction: column;
 }
 
 }
