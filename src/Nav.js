@@ -58,7 +58,8 @@ class Nav extends Component {
                         </div>
                     </nav>
                     <div>
-                        <Route exact path='/LindsayMulhollen' component={Home} />
+                        <Route exact path='/' component={Home} />
+                        <Route path='/LindsayMulhollen' component={Home} />
                         <Route path='/About' component={About} />
                         <Route path='/Portfolio' component={Portfolio} />
                         <Route path='/Resume' component={Resume} />
