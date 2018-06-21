@@ -2,7 +2,7 @@
   "name": "lindsay-mulhollen",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mulhollen.github.io/lindsaymulhollen",
+  "homepage": "http://mulhollen.github.io",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
     "emojis": "^1.0.10",
