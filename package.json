@@ -2,7 +2,7 @@
   "name": "lindsay-mulhollen",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mulhollen.github.io",
+  "homepage": "https://mulhollen.github.io",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
     "emojis": "^1.0.10",
@@ -25,6 +25,6 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0"
+    "gh-pages": "^1.2.0"
   }
 }

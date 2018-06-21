@@ -9,7 +9,7 @@ import Video from './components/Video.js';
 import Footer from './components/Footer.js';
 import sid from './img/Canvas/persona.jpeg';
 import wall from './img/Canvas/artlens.JPG';
-import main from './img/ArtInvestigator/mainscreen.jpg';
+import main from './img/Canvas/CanvasCrop.png';
 
 
 class Canvas extends Component {
@@ -56,7 +56,7 @@ class Canvas extends Component {
                 </div>
                 <div class="bodyWidth p-5 my-5 border border-dark">
                     <h3 className="mb-4">
-                        <i>"Olivia CANNOT stop talking about [Art Investigator]. She came into my bed last night and said she was so happy that she saw how someone else faced their fears. We got to have a great conversation about fears and power!"</i>
+                        <i>"Interacting with art is about the only way I can understand it"</i>
                     </h3>
                 </ div>
                 <div className="bodyWidth d-flex justify-content-center yellow flip mb-3 mx-auto">

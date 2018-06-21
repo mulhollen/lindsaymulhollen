@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import emojis from 'emojis-list';
 import AI from './img/ArtInvestigator/ArtInvestigator.jpg';
+import CanvasImg from './img/Canvas/CanvasCrop.png';
 import ArtInvestigator from './ArtInvestigator.js';
 import EverythingHappens from './img/EverythingHappens/kristen.jpg';
 import Canvas from './Canvas.js';
@@ -41,7 +42,7 @@ class Portfolio extends Component {
                     {/* Canvas */}
                     <div className="d-flex flex-column mx-auto">
                         <div className="hovereffect my-3">
-                            <img src={AI} className="w-100" alt="logo" />
+                            <img src={CanvasImg} className="w-100" alt="logo" />
                             <div className="overlay">
                                 <Link className="portLink" to='/Canvas'><h2>canvas</h2></Link>
                             </div>

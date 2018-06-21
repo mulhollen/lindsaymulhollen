@@ -4,6 +4,7 @@ import emojis from 'emojis-list';
 import AI from '../img/ArtInvestigator/ArtInvestigator.jpg';
 import ArtInvestigator from '../ArtInvestigator.js';
 import neos from '../img/NDT/neos.jpg';
+import Canvas from '../img/Canvas/Canvas.png';
 import EverythingHappens from '../img/EverythingHappens/EHsquare.jpg';
 import '../App.css';
 
@@ -23,7 +24,7 @@ class MinimalPortfolio extends Component {
                     </div>
                     <div className="d-flex flex-row">
                         <div className="hovereffect m-3">
-                            <img src={neos} className="w-100" alt="logo" />
+                            <img src={Canvas} className="w-100" alt="logo" />
                             <div className="overlay">
                                 <Link className="portLink" to='/Canvas'><h2>canvas</h2></Link>
                             </div>
