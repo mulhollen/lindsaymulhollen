@@ -5,13 +5,13 @@ import {
     Link,
 } from 'react-router-dom';
 import emojis from 'emojis-list';
-import AI from './img/ArtInvestigator/ArtInvestigator.jpg';
-import CanvasImg from './img/Canvas/CanvasCrop.png';
-import ArtInvestigator from './ArtInvestigator.js';
-import EverythingHappens from './img/EverythingHappens/kristen.jpg';
-import Canvas from './Canvas.js';
-import './App.css';
-import Footer from './components/Footer';
+import AI from '../img/ArtInvestigator/ArtInvestigator.jpg';
+import CanvasImg from '../img/Canvas/CanvasCrop.png';
+import ArtInvestigator from '../projects/ArtInvestigator.js';
+import EverythingHappens from '../img/EverythingHappens/kristen.jpg';
+import Canvas from '../projects/Canvas.js';
+// import './App.css';
+import Footer from '../shared/Footer';
 
 class Portfolio extends Component {
     render() {

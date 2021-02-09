@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import emojis from 'emojis-list';
-import lindsay from './img/lindsay.jpg';
-import travel from './img/travel_React.jpg';
-import './App.css';
-import Portfolio from './Portfolio.js';
-import H1 from './components/H1.js';
-import Video from './components/Video.js';
-import Footer from './components/Footer.js';
-import liv from './img/ArtInvestigator/liv_app_2.jpg';
-import challenge from './img/ArtInvestigator/challenge.jpg';
-import search from './img/ArtInvestigator/search.jpg';
-import main from './img/ArtInvestigator/mainscreen.jpg';
-import soundsuit from './img/ArtInvestigator/soundsuit-square.jpg';
+import lindsay from '../img/lindsay.jpg';
+import travel from '../img/travel_React.jpg';
+// import './App.css';
+import Portfolio from '../components/Portfolio.js';
+import H1 from '../shared/H1.js';
+import Video from '../shared/Video.js';
+import Footer from '../shared/Footer.js';
+import liv from '../img/ArtInvestigator/liv_app_2.jpg';
+import challenge from '../img/ArtInvestigator/challenge.jpg';
+import search from '../img/ArtInvestigator/search.jpg';
+import main from '../img/ArtInvestigator/mainscreen.jpg';
+import soundsuit from '../img/ArtInvestigator/soundsuit-square.jpg';
 
 
 class ArtInvestigator extends Component {

@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import emojis from 'emojis-list';
 import AI from '../img/ArtInvestigator/ArtInvestigator.jpg';
-import ArtInvestigator from '../ArtInvestigator.js';
+import ArtInvestigator from '../projects/ArtInvestigator.js';
 import neos from '../img/NDT/neos.jpg';
 import Canvas from '../img/Canvas/Canvas.png';
 import EverythingHappens from '../img/EverythingHappens/EHsquare.jpg';
-import '../App.css';
+// import '../App.css';
 
 class MinimalPortfolio extends Component {
     render() {

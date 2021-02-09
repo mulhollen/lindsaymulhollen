@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
-import resume from './img/LindsayMulhollenResume.png';
-import Footer from './components/Footer.js';
+// import './App.css';
+import resume from '../img/LindsayMulhollenResume.png';
+import Footer from '../shared/Footer.js';
 
 class Resume extends Component {
     render() {

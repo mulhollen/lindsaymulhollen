@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import emojis from 'emojis-list';
-import lindsay from './img/lindsay.jpg';
-import travel from './img/travel_React.jpg';
-import './App.css';
-import Portfolio from './Portfolio.js';
-import H1 from './components/H1.js';
-import Video from './components/Video.js';
-import Footer from './components/Footer.js';
-import sid from './img/Canvas/persona.jpeg';
-import wall from './img/Canvas/artlens.JPG';
-import main from './img/Canvas/CanvasCrop.png';
+import lindsay from '../img/lindsay.jpg';
+import travel from '../img/travel_React.jpg';
+// import './App.css';
+import Portfolio from '../components/Portfolio.js';
+import H1 from '../shared/H1.js';
+import Video from '../shared/Video.js';
+import Footer from '../shared/Footer.js';
+import sid from '../img/Canvas/persona.jpeg';
+import wall from '../img/Canvas/artlens.JPG';
+import main from '../img/Canvas/CanvasCrop.png';
 
 
 class Canvas extends Component {

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import lindsay from './img/photostrip.jpg';
-import './App.css';
+import lindsay from '../img/photostrip.jpg';
+// import './App.css';
 import emojis from 'emojis-list';
-import Footer from './components/Footer';
+import Footer from '../shared/Footer';
 
 console.log(emojis);
 class About extends Component {

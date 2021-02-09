@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import emojis from 'emojis-list';
-import '../App.css';
+// import '../App.css';
 
 
 class H1 extends Component {

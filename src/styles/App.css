@@ -30,13 +30,13 @@ nav {
 /* logo */
 .logo {
 height: 4rem;
-background: url('img/lmlogostill.png');
+background: url('../img/lmlogostill.png');
 }
 
 /*this is the hover event trigger*/
 .logo:hover {
   cursor:pointer; 
-  background:url('img/lmlogo.gif');
+  background:url('../img/lmlogo.gif');
 }
 
 a,

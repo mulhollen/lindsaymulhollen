@@ -5,16 +5,16 @@ import {
     Link,
     NavLink,
 } from 'react-router-dom';
-import Home from './Home.js';
-import About from './About.js';
-import Portfolio from './Portfolio.js';
-import Resume from './Resume.js';
+import Home from './components/Home.js';
+import About from './components/About.js';
+import Portfolio from './components/Portfolio.js';
+import Resume from './components/Resume.js';
 import squiggle from './img/squiggleline.png';
 import logo from './img/lmlogostill.png';
 import gif from './img/lmlogo.gif';
-import ArtInverstigator from './ArtInvestigator.js';
-import EverythingHappens from './EverythingHappens';
-import Canvas from './Canvas';
+import ArtInverstigator from './projects/ArtInvestigator.js';
+import EverythingHappens from './projects/EverythingHappens';
+import Canvas from './projects/Canvas';
 
 
 class Nav extends Component {
